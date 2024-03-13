@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.background{
+    background-color: black;
+    color: #ffff;
+
+}
+.paddingNav{
+    padding-top: 70px;
+    /* padding-left: 50px; */
+}
+.xlogo{
+    width: 55%;
+    padding: 82px 0;
+}
+.buttonInput{
+    display: flex;
+    align-items:center;
+    border: 1px black solid;
+    border-radius: 24px;
+    width: 69%;
+    padding: .5rem 4rem;
+    margin: 1rem 0;
+}
+
+.buttonInput .img{
+    padding-right: 1rem;
+}
+
+.buttonInput p{
+    color: #3c4043;
+    font-weight: 400;
+    margin-bottom: 3px;
+}
+.buttonInput h6{
+    margin-bottom: 3px;
+}
+.img{
+    max-width: 35px;
+    max-height: 35px;
+}
+.divider {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    width: 69%;
+    margin-top: -6px;
+  }
+  
+  .divider::before, .divider::after {
+    flex: 1;
+    content: '';
+    padding: 0.1px;
+    background-color: rgb(47, 51, 54);
+    margin: 13px;
+  }
+  .buttonCreate{
+    background-color: rgb(29, 155, 240);
+    border: 1px rgba(0, 0, 0, 0) solid;
+    border-radius: 24px;
+    color: #ffff;
+    width: 69%;
+    padding: .5rem 4rem;
+    margin: 9px 0;
+}
+.buttonCreate h6{
+    margin-bottom: 3px;
+}
+.textlink a{
+    text-decoration: none;
+}
+.textlink p{
+    font-size: 12px;
+    color: rgb(113, 118, 123);;
+}
+.buttonSign{
+    background-color: rgb(0, 0, 0, 0);
+    border: 1px rgba(83, 100, 113) solid;
+    border-radius: 24px;
+    color: rgb(29, 155, 240);
+    width: 69%;
+    padding: .5rem 4rem;
+    margin: 9px 0;
+}
+.buttonSign h6{
+    margin-bottom: 3px;
+    font-weight: 700;
+}
+h1{
+    font-size: 60px;
+    font-weight: bolder;
+}
+.join{
+    padding: 43px 0 15px 0;
+    font-size: 32px;
+    font-weight: bold;
+   
+}
+.list-align ul{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    list-style-type: none;
+    justify-content: center;  
+  }
+  
+  .list-align li {
+    margin:4px 9px;
+    color: grey;
+  }
+
+  .list-align a{
+    text-decoration: none;
+    color: grey;
+    font-size: 13px;
+}
+.list-align a:hover{
+    text-decoration: underline;
+}
+
+.signIn {
+    padding: 15px 0;
+    font-size: 24px;
+    color: black;
+  }
+  .tagline {
+    font-size: 16px;
+    padding-bottom: 18px;
+    color: black;
+  }
+
+
+@media(max-width:576px){
+    
+    .xlogo {
+        width: 16%;
+        padding: 30px 0;
+    }
+    .paddingNav{
+        padding-top:0px;
+    }
+    h1 {
+        font-size: 45px;
+        font-weight: bolder;
+    }
+    .join {
+        font-size: 29px;   
+    }
+    .buttonInput{
+        width: 100%;
+    }
+    .buttonCreate{
+        width: 100%;
+    }
+    .divider {
+        width: 100%; 
+    }
+    .buttonSign{
+        width: 100%; 
+    }
+    .headerPadding {
+        padding: 0 10px;
+    }
+}
+
+
+@media(max-width:768px){
+    .paddingNav{
+        padding-top:0px;
+    }
+    .xlogo {
+        width: 8%;
+        padding: 30px 0;
+    }
+
+    .list-align li {
+        margin: 5px;
+    }
+}
+
+
+@media(max-width:1024px) {
+    
+    .xlogo {
+        width: 10%;
+        padding: 30px 0;
+    }
+    .paddingNav{
+        padding-top:0px;
+    }
+    h1 {
+        font-size: 68px;
+        
+    }
+    .join {
+        font-size: 29px;   
+    }
+    .buttonInput{
+        width: 62%;
+    }
+    .buttonCreate{
+        width: 62%;
+    }
+    .divider {
+        width: 62%; 
+    }
+    .buttonSign{
+        width: 62%; 
+    }
+    .headerPadding {
+        padding: 0 120px;
+    }
+    
+    
+}

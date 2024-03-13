@@ -1,0 +1,162 @@
+.fblogo img{
+    height: 7em;
+}
+.fblogo{
+    padding-top: 10em;
+    padding-left: 13em;
+
+
+}
+
+.fblogo h2{
+    padding-left: 35px;
+    width: 570px;
+    font-weight: 500;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.epform{
+    max-width: 400px;
+    height: 20em;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+.epform input{
+    max-width: 90%;
+}
+.epform a{
+    text-decoration: none;
+    padding-top: 20px;
+}
+
+.epform button{
+    max-width: 90%;
+    border-radius: 10px;
+    border-color: transparent;
+}
+.epform2{
+    padding-top: 10em;
+}
+.login{
+    font-size: 1.5em;
+    font-weight: 500;
+    height: 50px;
+    width: 400px;
+    background-color: #1877F2;
+    color: white;
+}
+.bgbg{
+    background-color: #F0F2F5;
+    height: 100vh;
+    /* width: 100vw; */
+}
+.divide{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.cna{
+    background-color: #42B72A;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    height: 50px;
+    width: 200px;
+}
+
+.topheader{
+    background-color: #FFFBE2;
+    display: none;
+    height: 45px;
+    font-size: 16px;
+    color: #3b5998;
+    padding-top: 8px;
+}
+
+.topheader i{
+    /* display: none; */
+    font-size: 25px;
+    padding-left: 5px;
+}
+.bottomtxt span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logomobile{
+    display: none;
+}
+.language-page{
+    text-align: center;
+    font-size: 14px;
+    color: grey;
+    padding-bottom: 30px;
+}
+.language-page select{
+    border: none;
+    max-width: 70px;
+    color: grey;
+}
+
+.list-align ul{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    list-style-type: none;
+    justify-content: center;  
+  }
+  
+  .list-align li {
+    margin: 10px;
+  }
+
+  .list-align a{
+    text-decoration: none;
+    color: grey;
+    font-size: 12px;
+}
+.list-align a:hover{
+    text-decoration: underline;
+}
+
+
+@media(max-width:586px) {
+    .fblogo{
+        display: none;
+    }
+    .topheader{
+        display: block;
+    }
+    .epform{
+        background-color: #F0F2F5;
+
+    }
+    .logomobile{
+        display: block;
+    }
+    .logomobile img{
+        height: 40px;
+        width: 120px;
+    }
+    .epform2 {
+        padding-top: 0em;
+    }
+    .bottomtxt{
+        display: none;
+    }
+    .whitebtn button{
+    border: 1px solid rgba(0, 0, 0, 0.378) ;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    height: 35px;
+    width: 80%;
+    border-radius: 0%;
+    }
+    .bgbg{
+        height: 700px;
+    }
+    
+    
+}

@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contentImg{
+    display: flex;
+    padding: 0 39px;
+}
+.contentImg img {
+    width: 7%;
+    height: 32px;
+    border-radius: 50%;
+}
+.contentImg h6{
+    padding:0px 10px;
+    font-size: 15px;
+}
+.gmailText{
+    padding:0 78px;
+    margin-top: -12px !important;
+    font-size: 14px;
+}
+
+.contentEmail{
+    display: flex;
+    padding: 0 39px;
+}
+.contentEmail img {
+    width: 7%;
+    height: 32px;
+    border-radius: 50%;
+}
+.contentEmail h6{
+    padding:0px 10px;
+    font-size: 15px;
+}
+.EmailText{
+    padding:0 78px;
+    margin-top: -12px !important;
+    font-size: 14px;
+}
+.borderline{
+    border: 1px solid #f1f0f0;
+    margin: -6px 20px;
+    
+}
+.contentUser{
+    display: flex;
+    padding: 0 39px;
+}
+.contentUser img {
+    width: 5%;
+    height: 20px;
+    color: grey !important;
+}
+.contentUser h6{
+    padding:0px 10px;
+    font-size: 15px;
+}
+.borderline1{
+    border: 1px solid #f1f0f0;
+    margin: 0 20px;
+   
+}
+
+.language-page{
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    
+}
+.language-page select{
+    border: none;
+    max-width: 70px;
+    
+}
+.footerLine{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 14px;
+    padding: 200px 0 50px 0;
+}
+.footerLine p{
+    color: grey;
+}
